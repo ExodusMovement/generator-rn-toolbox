@@ -151,7 +151,7 @@ const generateResizedRoundAssets = (
   gm(maxSize, maxSize, 'none')
     .drawCircle(
       maxSize / 2,
-      maxSize / 2,
+      maxSize / 2 - 1,
       maxSize / 2,
       (maxSize * (1 - marginPercent)) / 2
     )
